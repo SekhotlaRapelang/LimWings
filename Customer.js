@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View, Image, Button, ImageBackground } from 'react-native';
 import {useState} from 'react'
 
-export default function Contact({name, totalPrice, setTotalPrice, }) {
-  let price = 15;
+export default function Contact({name, totalPrice, setTotalPrice,price }) {
+  
   const [iterms, setIterms] = useState(0);
   function AddIterms(){
     setIterms(iterms + 1)

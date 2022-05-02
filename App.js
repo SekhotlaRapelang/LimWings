@@ -35,16 +35,16 @@ export default function App() {
         </View>
 
       < ScrollView>
-      <Contact name="Bread,eggs & tea or juice" totalPrice={totalPrice} setTotalPrice={setTotalPrice} Image source={require('./assets/Egg.jpg')} />
-      <Contact name="Bread,eggs,vegetables,cheese & juice" to totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="Bread, eggs, bacon, vegetables & juice"  totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="Rice, vegetables and pork " totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="Rice, vegetables and beef " totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="Rice, vegetables and chicken " totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="papa, vegetables beef"  totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="papa, vegetables pork"  totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-      <Contact name="papa, vegetables chicken"  totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
-
+      <Contact name="Bread,eggs & tea or juice" price ={15} totalPrice={totalPrice} setTotalPrice={setTotalPrice} Image source={require('./assets/Egg.jpg')} />
+      <Contact name="Bread,eggs,vegetables,cheese & juice"price ={18} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="Bread, eggs, bacon, vegetables & juice" price ={25} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="Rice, vegetables and pork " price ={18} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="Rice, vegetables and beef " price ={25} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="Rice, vegetables and chicken " price ={28} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="papa, vegetables beef" price ={30} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="papa, vegetables pork"  price ={38} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+      <Contact name="papa, vegetables chicken" price ={40} totalPrice={totalPrice} setTotalPrice={setTotalPrice} />
+ 
       </ScrollView>
       
       <StatusBar style="auto" />
